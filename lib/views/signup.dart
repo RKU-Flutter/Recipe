@@ -2,7 +2,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:food_recipies/login.dart';
+import 'package:food_recipies/views/login.dart';
 
 class SignUpScreen extends StatefulWidget {
   @override

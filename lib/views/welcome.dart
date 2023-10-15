@@ -1,9 +1,9 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:food_recipies/home.dart';
-import 'package:food_recipies/login.dart';
-import 'package:food_recipies/signup.dart';
+import 'package:food_recipies/views/home.dart';
+import 'package:food_recipies/views/login.dart';
+import 'package:food_recipies/views/signup.dart';
 
 class WelcomeScreen extends StatelessWidget {
   @override
@@ -23,7 +23,7 @@ class WelcomeScreen extends StatelessWidget {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => HomeScreen(),
+                        builder: (context) => HomePage(),
                       ));
                 },
                 child: Text("SKIP",

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_recipies/editprofile.dart';
+import 'package:food_recipies/views/editprofile.dart';
 
 class ProfilePage extends StatelessWidget {
   @override
@@ -29,27 +29,30 @@ class ProfilePage extends StatelessWidget {
             ),
           ),
           SizedBox(height: 20),
-          Text(
-            'John Doe', // Replace with user's name
-            style: TextStyle(
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
+          Center(
+            child: Text(
+              'John Doe',
+              style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black),
             ),
           ),
           SizedBox(height: 10),
-          Text(
-            'johndoe@example.com',
-            style: TextStyle(
-              fontSize: 16,
-              color: Colors.grey,
+          Center(
+            child: Text(
+              'johndoe@example.com',
+              style: TextStyle(fontSize: 16, color: Colors.black),
             ),
           ),
           SizedBox(height: 30),
-          Text(
-            'User Information',
-            style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
+          Center(
+            child: Text(
+              'User Information',
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
           ListTile(
